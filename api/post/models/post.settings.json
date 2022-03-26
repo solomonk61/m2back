@@ -48,6 +48,10 @@
     "topics": {
       "via": "post",
       "collection": "topic"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

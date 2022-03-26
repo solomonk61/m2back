@@ -31,8 +31,8 @@
       "via": "topics"
     },
     "post": {
-      "model": "post",
-      "via": "topics"
+      "via": "topics",
+      "model": "post"
     }
   }
 }
