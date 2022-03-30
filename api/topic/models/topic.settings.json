@@ -26,9 +26,9 @@
       "targetField": "name"
     },
     "users_permissions_user": {
+      "via": "topics",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "topics"
+      "model": "user"
     },
     "post": {
       "via": "topics",

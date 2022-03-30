@@ -41,9 +41,9 @@
       "collection": "comment"
     },
     "users_permissions_user": {
+      "via": "posts",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "posts"
+      "model": "user"
     },
     "topics": {
       "via": "post",
@@ -52,6 +52,9 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "from_reddit": {
+      "type": "boolean"
     }
   }
 }

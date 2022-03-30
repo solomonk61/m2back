@@ -59,7 +59,7 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "fromReddit": {
+    "from_reddit": {
       "type": "boolean"
     },
     "avatar": {

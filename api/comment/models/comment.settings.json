@@ -22,9 +22,9 @@
       "type": "integer"
     },
     "users_permissions_user": {
+      "via": "comments",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "comments"
+      "model": "user"
     },
     "post": {
       "via": "comments",
